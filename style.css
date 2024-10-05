@@ -7,6 +7,11 @@ body {
     height: 100vh;
 }
 
+h1 {
+    font-size: 83px;
+    color:rgb(219, 225, 226);
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
