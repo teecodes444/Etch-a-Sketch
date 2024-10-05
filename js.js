@@ -25,9 +25,13 @@ document.addEventListener('DOMContentLoaded', () => {
             squareDiv.addEventListener('mouseover', () => {
                 function randomColor() {
                     let letters = '0123456789ABCDEF';
+                    // contains all possible characters for hexidecimal color code
                     let color = '#'
+                    // color codes start with #
                     for (let i = 0; i < 6; i++) {
+                        // hexidecimal codes contain 6 characters
                         color += letters[Math.floor(Math.random() * 16)];
+                        // there are 16 possible characters in hexidecimal code
                     }
                     return color;
                 }
