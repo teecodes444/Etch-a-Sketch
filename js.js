@@ -2,8 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
 // Executes script after content is loaded on webpage
     const gridContainer = document.getElementById("container");
     const conatinerSize = 940;
+    // total size of container
 
     function gridSize(size) {
+        gridContainer.style.width = `${conatinerSize}px`;
+        gridContainer.style.height = `${conatinerSize}px`;
         for (let i = 0; i < 256; i++) {
             // loop will run 256x as 16 * 16 = 256
             const squareDiv = document.createElement("div");
