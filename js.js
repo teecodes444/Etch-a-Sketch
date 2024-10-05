@@ -8,8 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const squareSize = conatinerSize / size;
         gridContainer.style.width = `${conatinerSize}px`;
         gridContainer.style.height = `${conatinerSize}px`;
-        for (let i = 0; i < 256; i++) {
-            // loop will run 256x as 16 * 16 = 256
+
+        for (let i = 0; i < size * size; i++) {
+            
             const squareDiv = document.createElement("div");
             squareDiv.classList.add('squareDiv');
             squareDiv.style.width = `${squareSize}px`;
@@ -29,8 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             
         }; 
+        
     };
 
-    gridSize(16)
+    gridSize(10)
 });
 
