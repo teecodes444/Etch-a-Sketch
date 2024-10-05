@@ -40,6 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let size = parseInt(prompt("Enter grid size (1 - 100)"));
         if (size > 0 && size < 100) {
             gridSize(size);
+        } else {
+            alert('Please enter a number between 1 - 100. Try Again.')
         }
     
     })
