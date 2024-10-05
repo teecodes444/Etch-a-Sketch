@@ -6,6 +6,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const squareDiv = document.createElement("div");
         squareDiv.classList.add('squareDiv');
         gridContainer.appendChild(squareDiv);
+
+        squareDiv.addEventListener('mouseout', () => {
+            squareDiv.style.backgroundColor = 'blue';
+        })
     }
     
+    // const button = document.querySelector('#btn');
+
+  
+
 });
+
