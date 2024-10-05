@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function gridSize(size) {
         
         const squareSize = conatinerSize / size;
+        gridContainer.innerHTML = '';
+        // to clear existing grid
         gridContainer.style.width = `${conatinerSize}px`;
         gridContainer.style.height = `${conatinerSize}px`;
 
