@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         squareDiv.classList.add('squareDiv');
         gridContainer.appendChild(squareDiv);
 
-        squareDiv.addEventListener('mouseout', () => {
+        squareDiv.addEventListener('mouseover', () => {
             function randomColor() {
                 let letters = '0123456789ABCDEF';
                 let color = '#'
