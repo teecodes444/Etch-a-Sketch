@@ -12,6 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // loop will run 256x as 16 * 16 = 256
             const squareDiv = document.createElement("div");
             squareDiv.classList.add('squareDiv');
+            squareDiv.style.width = `${squareSize}px`;
+            squareDiv.style.height = `${squareSize}px`;
             gridContainer.appendChild(squareDiv);
 
             squareDiv.addEventListener('mouseover', () => {
