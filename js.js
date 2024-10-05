@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // total size of container
 
     function gridSize(size) {
+        const squareSize = conatinerSize / size;
         gridContainer.style.width = `${conatinerSize}px`;
         gridContainer.style.height = `${conatinerSize}px`;
         for (let i = 0; i < 256; i++) {
