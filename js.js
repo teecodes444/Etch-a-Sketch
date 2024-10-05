@@ -30,5 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
         }; 
     };
+
+    gridSize(16)
 });
 
