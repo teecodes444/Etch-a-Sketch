@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const conatinerSize = 940;
     // total size of container
 
+    
     function gridSize(size) {
+        
         const squareSize = conatinerSize / size;
         gridContainer.style.width = `${conatinerSize}px`;
         gridContainer.style.height = `${conatinerSize}px`;
@@ -35,7 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     button.addEventListener('click', () => {
-        let userInput = prompt("Input number of squares between 1 and 100");
+        let size = parseInt(prompt("Enter grid size (1 - 100)"));
+    
     })
 
     gridSize(16)
