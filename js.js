@@ -19,11 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             squareDiv.style.backgroundColor = randomColor();
         })
         
-    }
-    
-    // const button = document.querySelector('#btn');
-
-  
+    }  
 
 });
 
