@@ -18,3 +18,14 @@ body{
     box-sizing: border-box;
     /* ensures border is included in total width/height */
 }
+
+button {
+    padding: 20px 37px;
+    font-size: 21px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bolder;
+    background-color: rgb(11, 147, 184);
+    border: none;
+    border-radius: 13px;
+}
