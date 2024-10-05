@@ -8,14 +8,17 @@ document.addEventListener('DOMContentLoaded', () => {
         gridContainer.appendChild(squareDiv);
 
         squareDiv.addEventListener('mouseout', () => {
-            let letters = '0123456789ABCDEF';
-            let color = '#'
-            for (let i = 0; i < 6; i++) {
-                color += letters[Math.floor(Math.random() * 16)];
+            function randomColor() {
+                let letters = '0123456789ABCDEF';
+                let color = '#'
+                for (let i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
             }
-            return color;
-            squareDiv.style.backgroundColor = 'blue';
+            squareDiv.style.backgroundColor = randomColor();
         })
+        
     }
     
     // const button = document.querySelector('#btn');
