@@ -38,9 +38,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     button.addEventListener('click', () => {
         let size = parseInt(prompt("Enter grid size (1 - 100)"));
+        if (size > 0 && size < 100) {
+            gridSize(size);
+        }
     
     })
 
-    gridSize(16)
+    gridSize()
 });
 
