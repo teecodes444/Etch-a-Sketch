@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
         gridContainer.appendChild(squareDiv);
 
         squareDiv.addEventListener('mouseout', () => {
+            let letters = '0123456789ABCDEF';
+            let color = '#'
             squareDiv.style.backgroundColor = 'blue';
         })
     }
