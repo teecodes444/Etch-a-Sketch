@@ -35,9 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     button.addEventListener('click', () => {
-        alert('it works')
+        let userInput = prompt("Input number of squares between 1 and 100");
     })
 
-    gridSize(10)
+    gridSize(16)
 });
 
