@@ -34,7 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     };
 
-    
+    button.addEventListener('click', () => {
+        alert('it works')
+    })
 
     gridSize(10)
 });
