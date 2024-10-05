@@ -1,9 +1,6 @@
 #container{
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
-    /* 16 * 50 = 800*/
-    height: 800px;
 }
 
 .squareDiv {
