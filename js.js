@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 // Executes script after content is loaded on webpage
     const gridContainer = document.getElementById("container");
+    const button = document.querySelector('#btn');
     const conatinerSize = 940;
     // total size of container
 
@@ -30,8 +31,10 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             
         }; 
-        
+
     };
+
+    
 
     gridSize(10)
 });
