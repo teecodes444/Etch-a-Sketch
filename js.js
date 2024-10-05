@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 // Executes script after content is loaded on webpage
     const gridContainer = document.getElementById("container");
+    const conatinerSize = 940;
 
     function gridSize(size) {
         for (let i = 0; i < 256; i++) {
